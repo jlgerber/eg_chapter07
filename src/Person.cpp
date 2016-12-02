@@ -3,7 +3,6 @@
 //
 
 #include "Person.hpp"
-//#include <string>
 
 using std::string;
 
