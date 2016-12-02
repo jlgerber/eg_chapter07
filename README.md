@@ -15,4 +15,7 @@ I added meaningful tests. At least a couple of them. Take a look.
 
 ##### CMakeLists.txt 
 
-I removed catch.cpp from the 
+I fixed up the CMakeLists file to include the tests directory after building the main executable. I also added comments
+
+### 3)
+I fixed up the include paths to remove the relative paths, as the include_directory() function in cmake takes care of locating the include files.
